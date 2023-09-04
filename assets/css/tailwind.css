@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.router-link-active {
+    @apply bg-primary text-white;
+    color: #fff;
+    padding: 0.5rem;
+}
